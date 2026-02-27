@@ -1,0 +1,132 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FUNDO E FONTES */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #a8d0e6, #f0f4f8); /* azul claro suave */
+    text-align: center;
+    min-height: 100vh;
+    color: #333; /* texto escuro para bom contraste */
+}
+
+/* MENU */
+nav {
+    background: rgba(0, 51, 102, 0.85); /* azul escuro translúcido */
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background: #0099cc; /* azul vibrante */
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: #0077aa; /* azul mais escuro no hover */
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+    margin-top: 140px;
+    padding: 20px;
+}
+
+/* TÍTULOS */
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #004d66;
+    text-shadow: 1px 1px 3px rgba(255,255,255,0.7);
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #005580;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #005580;
+}
+
+/* PARÁGRAFOS */
+.container p, .sobre {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 15px auto;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* IMAGEM PRINCIPAL */
+.main-img {
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* FRASE DIVERTIDA */
+.frase {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(0, 153, 204, 0.15);
+    color: #006699;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+/* INFORMAÇÕES */
+.info div {
+    display: inline-block;
+    background: #0099cc; /* azul vibrante */
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,153,204,0.4);
+}
+
+/* CARDS */
+.card {
+    background: #f8fafd; /* cinza muito claro */
+    color: #333;
+    width: 250px;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
